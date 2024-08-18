@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    color:#3e7474;
+}
+body{
+    background-color:#DEF9C4 ;
+    text-align: center;
+    
+}
+
+.container{
+    
+     height:70vh; /*70%of page */
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin; /*3 part */
+    width: 18vmin;
+    font-size: 8vmin;
+    box-shadow: 0 0 1rem #0115153f ;
+    color:#3d7575;
+    background-color:#9CDBA6 ;
+    border: 1px solid ;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+}
+
+.box:hover{
+    background-color:#3d7575; /* Green */
+    color: #DEF9C4;  
+}
+
+#reset{
+    height:5vmin ;
+    width: 10vmin;
+    font-size: large;
+    /* same as box */
+    box-shadow: 0 0 1rem #0115153f ;
+    color:#304b4b;
+    background-color:#9CDBA6 ;
+    border: 1px solid ;
+    border-radius: 3px;
+}
+#reset:hover{
+    background-color:#3d7575; /* Green */
+    color: #DEF9C4;  
+}
+
+
+.printwinner{
+    height: 40vmin;
+     font-size: xx-large;
+    color: #304b4b;
+    
+}
+.hide{
+    display: none;
+}
+
+   
+
+
+
+
